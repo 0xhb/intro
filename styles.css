@@ -1,0 +1,157 @@
+body {
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    line-height: 3;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 50px;
+}
+
+
+.top-cloud {
+    position: absolute;
+    right: 300px;            /* 16px == 100% == 1em |||||  em and % are static */   
+    top: 40px;         
+}
+.buttom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skills {
+    margin-top: 4em;
+}
+.code-img {
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+    float: left;
+    margin: 30px;
+}
+
+.sport-img {
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+    float: right;
+    margin: 30px;
+}
+
+
+h2 {
+    color:  #009DAE;
+    font-weight: normal;
+    line-height: 2rem;
+}
+
+
+h3, a {
+    color: #1C6DD0;
+}
+
+
+.h1 {
+    color:  #009DAE;
+    font-size: 5.5rem;   /* rem means root em, the h1 font will not be affected by the parent property (added to) */ 
+    margin: 50px auto 0 auto;
+    font-family: merriweather, serif;
+    font-family: 'Sacramento', cursive;
+}
+
+.h2 {
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+
+.top-container {
+    background-color: #03045E;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 0;
+}
+
+.profile {
+    margin: 4em;
+    line-height: 3;
+}
+
+
+
+.btn {
+    background: #03045E;
+    background-image: -webkit-linear-gradient(top, #03045E, #03045E);
+    background-image: -moz-linear-gradient(top, #03045E, #03045E);
+    background-image: -ms-linear-gradient(top, #03045E, #03045E);
+    background-image: -o-linear-gradient(top, #03045E, #03045E);
+    background-image: linear-gradient(to bottom, #03045E, #03045E);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 8px;
+    font-family: Arial;
+    color: white;
+    font-size: 20px;
+    margin: 200px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #1DB9C3;
+    text-decoration: none;
+  }
+
+  hr {
+    border-style: dotted;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-width: 6px;
+    width: 6%;
+    color: grey;
+  }
+
+.bottom-container {
+    height: 80px;
+    padding: 50px;
+    margin-top: 50px;
+    background-color: #03045E;
+}
+
+.twitter {
+    height: 2em;
+    margin-right: 20px
+}
+.instagram {
+    height: 2em;
+    margin-right: 20px;
+}
+.linkedin {
+    height: 2em;
+    margin-right: 20px
+}
+
+.img-c {
+    margin-bottom: 3em;
+    width: 20%;
+    display: inline-block;
+}
+
+.contact-me {
+    margin-top: 4em;
+    line-height: 3;
+}
