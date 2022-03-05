@@ -59,7 +59,7 @@ h2 {
 }
 
 
-h3, a {
+h3{
     color: #1C6DD0;
 }
 
@@ -68,13 +68,13 @@ h3, a {
     color:  #009DAE;
     font-size: 5.5rem;   /* rem means root em, the h1 font will not be affected by the parent property (added to) */ 
     margin: 50px auto 0 auto;
-    font-family: merriweather, serif;
     font-family: 'Sacramento', cursive;
 }
 
 .h2 {
     font-size: 2.5rem;
     text-decoration: underline;
+    font-family: Montserrat, serif;
 }
 
 
@@ -126,10 +126,16 @@ h3, a {
   }
 
 .bottom-container {
-    height: 80px;
-    padding: 50px;
+    height: 100px;
+    padding: 30px 0;
     margin-top: 50px;
     background-color: #03045E;
+}
+
+.copyright {
+    color: azure;
+    font-size: 0.8em;
+    font-family: Montserrat, serif;
 }
 
 .twitter {
@@ -146,7 +152,6 @@ h3, a {
 }
 
 .img-c {
-    margin-bottom: 3em;
     width: 20%;
     display: inline-block;
 }
@@ -154,4 +159,18 @@ h3, a {
 .contact-me {
     margin-top: 4em;
     line-height: 3;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+a {
+    color: cadetblue;
+    font-family: Montserrat, serif;
+}
+
+a:hover {
+    color: white;
 }
