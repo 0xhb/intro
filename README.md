@@ -1,2 +1,2 @@
 # intro
-this is me first website
+this is my first website
